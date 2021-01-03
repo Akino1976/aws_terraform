@@ -11,7 +11,7 @@ terraform {
 provider "aws" {
   region = "eu-west-1"
   version = "~> 3.0"
-  profile = "select profilename"
+  profile = "profile_name"
 }
 
 resource "aws_s3_bucket" "terraform_state" {
